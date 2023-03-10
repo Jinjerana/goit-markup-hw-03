@@ -1,0 +1,198 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/*---*/
+
+:root {
+  --title-color: #2e2f42;
+  --text-light-color: #ffffff;
+  --logofootertext-color: #e7e9fc;
+  --buttonlink-color: #4d5ae5;
+  --buttonfilterhover-color: #404bbf;
+  --buttonfilterbg-color: #f4f4fd;
+  --linkcolor: #434455;
+  --herobuttoncolor: rgba(0, 0, 0, 0.15);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--buttonlink-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.studio {
+  color: var(--title-color);
+}
+
+.menu {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.menu:hover {
+  color: var(--buttonfilterhover-color);
+}
+
+.menu:focus {
+  color: var(--buttonfilterhover-color);
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.address {
+  letter-spacing: 0.02em;
+  color: var(--linkcolor);
+}
+
+.address:hover {
+  color: var(--buttonfilterhover-color);
+}
+
+.address:focus {
+  color: var(--buttonfilterhover-color);
+}
+
+.hero {
+  background-color: var(--title-color);
+}
+
+.heroslogan {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-light-color);
+}
+
+.herobutton {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  align-items: center;
+  color: var(--text-light-color);
+  background-color: var(--buttonlink-color);
+  box-shadow: 0px 4px 4px var(--herobuttoncolor);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.herobutton:hover {
+  color: var(--text-light-color);
+  background-color: var(--buttonfilterhover-color);
+}
+
+.herobutton:focus {
+  color: var(--text-light-color);
+  background-color: var(--buttonfilterhover-color);
+}
+
+.abouttitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.abouttext {
+  letter-spacing: 0.02em;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+.teammember {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.teammemberprof {
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--title-color);
+}
+
+.studiofooter {
+  color: var(--buttonfilterbg-color);
+}
+
+.logofootertext {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--logofootertext-color);
+}
+
+.buttonfilter {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--buttonlink-color);
+  background-color: var(--buttonfilterbg-color);
+  cursor: pointer;
+}
+
+.buttonfilter:hover {
+  color: var(--text-light-color);
+  background-color: var(--buttonfilterhover-color);
+}
+
+.buttonfilter:focus {
+  color: var(--text-light-color);
+  background-color: var(--buttonfilterhover-color);
+}
+
+.cardtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.cardtext {
+  letter-spacing: 0.02em;
+  color: var(--linkcolor);
+}
