@@ -18,11 +18,33 @@ body {
   --herobuttoncolor: rgba(0, 0, 0, 0.15);
 }
 
+* *::before *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*HEADER*/
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
 .list {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -41,6 +63,7 @@ body {
 }
 
 .menu {
+  margin-right: 40px;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -56,9 +79,12 @@ body {
 
 .contacts {
   font-style: normal;
+  display: flex;
+  align-items: center;
 }
 
 .address {
+  margin-left: 40px;
   letter-spacing: 0.02em;
   color: var(--linkcolor);
 }
@@ -71,11 +97,18 @@ body {
   color: var(--buttonfilterhover-color);
 }
 
+/*HERO*/
+
 .hero {
+  height: 600px;
+  align-items: baseline;
   background-color: var(--title-color);
 }
 
 .heroslogan {
+  width: 496px;
+  margin: 0 auto;
+  padding-top: 188px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -85,6 +118,9 @@ body {
 }
 
 .herobutton {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 48px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -108,7 +144,21 @@ body {
   background-color: var(--buttonfilterhover-color);
 }
 
+/*ABOUT*/
+
+.aboutli {
+  width: 1128px;
+  height: 104px;
+  margin-right: 24px;
+  margin-left: 0;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding-left: 0;
+}
+
 .abouttitle {
+  margin-left: 0;
+  padding-left: 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -117,6 +167,7 @@ body {
 }
 
 .abouttext {
+  padding-left: 0;
   letter-spacing: 0.02em;
 }
 
