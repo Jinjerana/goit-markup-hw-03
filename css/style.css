@@ -66,7 +66,8 @@ body {
 /*HEADER*/
 
 .header {
-  border-bottom: var(--logofootertext-color);
+  padding: 24px;
+  border: 1px solid var(--logofootertext-color);
 }
 
 .headerflex {
@@ -312,6 +313,7 @@ body {
 }
 
 .logofootertext {
+  margin: 0;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--logofootertext-color);
@@ -341,6 +343,7 @@ body {
 
 .portfoliofilterli {
   margin: 0 24px 48px 0;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfoliofilterli:nth-child(3n) {
